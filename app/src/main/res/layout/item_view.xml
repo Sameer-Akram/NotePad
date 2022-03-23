@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:padding="10dp"
+    android:background="@drawable/round_corner"
+    android:layout_marginBottom="10dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/titleoutput"
+    android:textSize="20sp"
+    android:textColor="@color/black"
+    android:text="@string/my_titles"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descoutput"
+        android:textSize="12sp"
+        android:layout_below="@id/titleoutput"
+        android:textColor="@color/black"
+        android:text="@string/my_long_description"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeoutput"
+        android:textSize="12sp"
+        android:layout_below="@id/descoutput"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:text="Jan 21 2022"/>
+</RelativeLayout>
